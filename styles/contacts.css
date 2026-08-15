@@ -1,0 +1,152 @@
+/* ======================== contact section ====================== */
+.contact-container {
+  width: 70%;
+  margin: 7rem auto;
+  position: relative;
+}
+.contact-container .contact-werraper {
+  display: flex;
+  gap: 1rem;
+  color: #abb2bf;
+}
+.contact-container .contact-werraper .contact-section {
+  width: 50%;
+}
+.contact-container .contact-werraper .left-section .contact-text {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.contact-container .contact-werraper .right-section {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.contact-container .contact-werraper .right-section .contact-message {
+  padding: 0.5rem;
+  border: 1px solid #abb2bf;
+  display: inline-block;
+  text-align: left;
+}
+.contact-container
+  .contact-werraper
+  .right-section
+  .contact-message
+  .contact-message__text {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #ffffff;
+}
+.contact-container
+  .contact-werraper
+  .right-section
+  .contact-message
+  .contact-message__link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+.contact-container
+  .contact-werraper
+  .right-section
+  .contact-message
+  .contact-message__link
+  .contact-message__links {
+  transition: all 0.3s;
+}
+.contact-container
+  .contact-werraper
+  .right-section
+  .contact-message
+  .contact-message__link
+  .contact-message__links:hover {
+  color: #ffffff;
+}
+.contact-container .contact-shape {
+  position: absolute;
+  left: -20%;
+  bottom: 50px;
+}
+/* ======================== all-media section ====================== */
+.all-media-container {
+  width: 70%;
+  margin: 7rem auto;
+  position: relative;
+}
+
+.all-media-container .all-media-actions {
+  display: flex;
+  gap: 1rem;
+  margin-block: 1.5rem;
+}
+.all-media-container .all-media-actions .all-media-link {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  text-align: center;
+  color: #abb2bf;
+  transition: all 0.3s;
+}
+.all-media-container .all-media-actions .all-media-link i {
+  font-size: 1.5rem;
+}
+.all-media-container .all-media-actions .all-media-link:hover {
+  color: #ffffff;
+}
+@media screen and (max-width: 575px) {
+  /* ======================== contact section ====================== */
+  .contact-container {
+    width: 70%;
+    margin: 7rem auto;
+    position: relative;
+  }
+  .contact-container .contact-werraper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: space-between;
+    color: #abb2bf;
+  }
+  .contact-container .contact-werraper .contact-section {
+    width: 100%;
+  }
+  .contact-container .contact-werraper .left-section .contact-text {
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-align: justify;
+    word-spacing: -3px;
+  }
+  .contact-container .contact-werraper .right-section {
+    text-align: center;
+  }
+  .contact-container
+    .contact-werraper
+    .right-section
+    .contact-message
+    .contact-message__link
+    .contact-message__links {
+    transition: all 0.3s;
+  }
+  .contact-container
+    .contact-werraper
+    .right-section
+    .contact-message
+    .contact-message__link
+    .contact-message__links:active {
+    color: #ffffff;
+  }
+  .contact-container .contact-shape {
+    position: absolute;
+    left: -40%;
+    bottom: 2rem;
+  }
+  /* ======================== all-media section ====================== */
+  .all-media-container {
+    width: 70%;
+    margin: 4rem auto;
+    position: relative;
+  }
+  .all-media-container .all-media-actions .all-media-link:active {
+    color: #ffffff;
+  }
+}

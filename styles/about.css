@@ -1,0 +1,328 @@
+/* ======================== about section ====================== */
+.about-container {
+  width: 70%;
+  margin: 7rem auto;
+  position: relative;
+}
+.about-container .about-second-shape {
+  position: absolute;
+  left: -40%;
+  top: 20%;
+}
+.about-section-werraper {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.about-section-werraper .left-section {
+  color: #abb2bf;
+  position: relative;
+}
+.about-section-werraper .about-section {
+  width: 50%;
+}
+.about-section-werraper .left-section .about-title {
+  margin-bottom: 1rem;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.about-section-werraper .left-section .about-descrption {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.about-section-werraper .right-section {
+  text-align: right;
+  position: relative;
+}
+.about-section-werraper .right-section .about-img {
+  width: 417px;
+  height: 506px;
+  aspect-ratio: 16/9;
+  object-fit: contain;
+  margin-top: -150px;
+}
+.about-section-werraper .right-section .about-section-shape {
+  position: absolute;
+  top: -5px;
+  right: 270px;
+}
+.about-shape {
+  width: 88px;
+  height: 155px;
+  position: absolute;
+  right: -22%;
+  top: 35%;
+  border: 1px solid #abb2bf;
+}
+/* ======================== skills ====================== */
+.skills-container {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+/* ======================== skills column ====================== */
+.skills-werraper__container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 40px;
+}
+
+.skills-werraper__container .skills-colum {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.skills-werraper__container .skills-colum .skills-box {
+  border: 1px solid #abb2bf;
+  margin-bottom: 1rem;
+  width: 192px;
+}
+.skills-werraper__container .skills-colum .skills-box .box-header {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  border-bottom: 1px solid #abb2bf;
+  padding: 0.5rem;
+}
+.skills-werraper__container .skills-colum .skills-box .box-content {
+  color: #abb2bf;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.skills-werraper__container .skills-colum .skills-box .box-content p {
+  display: flex;
+  gap: 1rem;
+}
+/* ======================== facts-section ====================== */
+.facts-container {
+  width: 70%;
+  margin: 5rem auto;
+}
+.facts-container .facts-section__werraper {
+  display: flex;
+  margin-top: 40px;
+  position: relative;
+}
+.facts-container .facts-section__werraper .facts-section.left-facts-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #abb2bf;
+  width: 70%;
+}
+.facts-container
+  .facts-section__werraper
+  .facts-section.left-facts-section
+  .facts-items {
+  display: flex;
+  gap: 1rem;
+}
+.facts-container
+  .facts-section__werraper
+  .facts-section.left-facts-section
+  .facts-item {
+  border: 1px solid #abb2bf;
+  padding: 0.5rem;
+}
+.facts-container
+  .facts-section__werraper
+  .facts-section.left-facts-section
+  .facts-hightlite-item {
+  color: #ffffff;
+}
+.facts-container .facts-section__werraper .facts-section.right-facts-section {
+  text-align: right;
+  width: 30%;
+  position: relative;
+}
+.facts-container
+  .facts-section__werraper
+  .facts-section.right-facts-section
+  .fact-shape {
+  position: absolute;
+}
+.facts-container
+  .facts-section__werraper
+  .facts-section.right-facts-section
+  .fact-shape.first-f-shap {
+  bottom: 10%;
+  right: 20%;
+  width: 113px;
+  height: 113px;
+}
+.facts-container
+  .facts-section__werraper
+  .facts-section.right-facts-section
+  .fact-shape.fact-shape.second-f-shap {
+  left: 25%;
+  width: 64px;
+  height: 64px;
+}
+.facts-container .facts-section__werraper .facts-shape {
+  width: 103px;
+  height: 103px;
+  position: absolute;
+  bottom: -15%;
+  right: -23.35%;
+}
+.facts-container .facts-section__werraper .fact-shape-line {
+  width: 155px;
+  height: 155px;
+  position: absolute;
+  border: 1px solid #abb2bf;
+  left: -25%;
+}
+@media screen and (max-width: 575px) {
+  /* ======================== about section ====================== */
+  .about-container {
+    width: 70%;
+    margin: 7rem auto;
+    position: relative;
+  }
+  .about-container .about-second-shape {
+    position: absolute;
+    left: -40%;
+    top: 20%;
+  }
+  .about-section-werraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .about-section-werraper .left-section {
+    color: #abb2bf;
+    position: relative;
+  }
+  .about-section-werraper .about-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about-section-werraper .left-section .about-title {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .about-section-werraper .left-section .about-descrption {
+    line-height: 1.3rem;
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .about-section-werraper .right-section {
+    text-align: right;
+    position: relative;
+    z-index: -1;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  .about-section-werraper .right-section .about-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .about-section-werraper .right-section .about-section-shape {
+        position: absolute;
+        top: 25%;
+        z-index: -1;
+        left: 7%;
+  }
+  .about-shape {
+    width: 88px;
+    height: 155px;
+    position: absolute;
+    right: -40%;
+    bottom: 35%;
+    border: 1px solid #abb2bf;
+  }
+  /* ======================== skills ====================== */
+  .skills-container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  /* ======================== skills column ====================== */
+  .skills-werraper__container .skills-colum {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  .skills-werraper__container .skills-colum .skills-box {
+    border: 1px solid #abb2bf;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .skills-werraper__container .skills-colum .skills-box .box-content {
+    color: #abb2bf;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .skills-werraper__container .skills-colum .skills-box .box-content p {
+    display: flex;
+    gap: 1rem;
+  }
+  /* ======================== facts-section ====================== */
+  .facts-container .facts-section__werraper {
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 40px;
+    position: relative;
+  }
+  .facts-container .facts-section__werraper .facts-section.left-facts-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: 500;
+    font-size: 0.6rem;
+    color: #abb2bf;
+    width: 100%;
+  }
+  .facts-container .facts-section__werraper .facts-section.right-facts-section {
+    text-align: right;
+    width: 30%;
+    position: relative;
+    display: none;
+  }
+  .facts-container
+    .facts-section__werraper
+    .facts-section.left-facts-section
+    .facts-hightlite-item {
+    color: #ffffff;
+    font-weight: 600;
+  }
+  .facts-container .facts-section__werraper .facts-shape {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    bottom: -20%;
+    right: -40%;
+  }
+  .facts-container .facts-section__werraper .fact-shape-line {
+    width: 155px;
+    height: 155px;
+    position: absolute;
+    border: 1px solid #abb2bf;
+    left: -70%;
+  }
+}
